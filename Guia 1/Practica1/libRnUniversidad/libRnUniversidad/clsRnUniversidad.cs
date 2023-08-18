@@ -18,7 +18,6 @@ namespace libRnUniversidad
         private float fltDesc;
         private string strError;
         #endregion
-
         #region "Constructor"
         public clsRnUniversidad()
         {
@@ -58,7 +57,7 @@ namespace libRnUniversidad
             get { return fltDesc; }
         }
 
-        public string error
+        public string Error
         {
             get { return strError; }
         }

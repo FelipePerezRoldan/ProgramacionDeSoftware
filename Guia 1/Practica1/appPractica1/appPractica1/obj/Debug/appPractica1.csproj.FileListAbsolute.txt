@@ -1,10 +1,10 @@
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe.config
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.pdb
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.AssemblyReference.cache
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.Form1.resources
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.Properties.Resources.resources
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.GenerateResource.cache
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CoreCompileInputs.cache
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.exe
-C:\Users\salak406.SALASFR\Desktop\ProgramacionDeSoftware-main\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.pdb
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe.config
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.pdb
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.AssemblyReference.cache
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.frmUniversidad.resources
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.Properties.Resources.resources
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.GenerateResource.cache
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CoreCompileInputs.cache
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.exe
+E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.pdb
