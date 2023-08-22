@@ -62,6 +62,7 @@ namespace libOpeUniversidad
         public string Error
         {
             set { strError = value; }
+            get { return strError; }
         }
         #endregion
         #region "Metodo público"
