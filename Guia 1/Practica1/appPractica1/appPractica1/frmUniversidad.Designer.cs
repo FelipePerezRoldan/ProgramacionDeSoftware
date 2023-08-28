@@ -39,17 +39,17 @@ namespace appPractica1
             this.labelVrCrédito = new System.Windows.Forms.Label();
             this.labelNroCréditos = new System.Windows.Forms.Label();
             this.cmbTipoEst = new System.Windows.Forms.ComboBox();
-            this.textCarne = new System.Windows.Forms.TextBox();
-            this.textNombre = new System.Windows.Forms.TextBox();
-            this.textPromedio = new System.Windows.Forms.TextBox();
+            this.txtCarne = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtPromedio = new System.Windows.Forms.TextBox();
             this.btnProcesar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.gpbRpta = new System.Windows.Forms.GroupBox();
+            this.txtVrPagar = new System.Windows.Forms.TextBox();
+            this.txtDscto = new System.Windows.Forms.TextBox();
+            this.txtVrCred = new System.Windows.Forms.TextBox();
             this.txtNroCred = new System.Windows.Forms.TextBox();
-            this.textVrCred = new System.Windows.Forms.TextBox();
-            this.textDscto = new System.Windows.Forms.TextBox();
-            this.textVrPagar = new System.Windows.Forms.TextBox();
-            this.textMsj = new System.Windows.Forms.TextBox();
+            this.txtMsj = new System.Windows.Forms.TextBox();
             this.btnTerminar = new System.Windows.Forms.Button();
             this.gpbRpta.SuspendLayout();
             this.SuspendLayout();
@@ -152,26 +152,26 @@ namespace appPractica1
             this.cmbTipoEst.Size = new System.Drawing.Size(263, 21);
             this.cmbTipoEst.TabIndex = 9;
             // 
-            // textCarne
+            // txtCarne
             // 
-            this.textCarne.Location = new System.Drawing.Point(148, 132);
-            this.textCarne.Name = "textCarne";
-            this.textCarne.Size = new System.Drawing.Size(263, 20);
-            this.textCarne.TabIndex = 10;
+            this.txtCarne.Location = new System.Drawing.Point(148, 132);
+            this.txtCarne.Name = "txtCarne";
+            this.txtCarne.Size = new System.Drawing.Size(263, 20);
+            this.txtCarne.TabIndex = 10;
             // 
-            // textNombre
+            // txtNombre
             // 
-            this.textNombre.Location = new System.Drawing.Point(148, 164);
-            this.textNombre.Name = "textNombre";
-            this.textNombre.Size = new System.Drawing.Size(263, 20);
-            this.textNombre.TabIndex = 11;
+            this.txtNombre.Location = new System.Drawing.Point(148, 164);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(263, 20);
+            this.txtNombre.TabIndex = 11;
             // 
-            // textPromedio
+            // txtPromedio
             // 
-            this.textPromedio.Location = new System.Drawing.Point(148, 198);
-            this.textPromedio.Name = "textPromedio";
-            this.textPromedio.Size = new System.Drawing.Size(263, 20);
-            this.textPromedio.TabIndex = 12;
+            this.txtPromedio.Location = new System.Drawing.Point(148, 198);
+            this.txtPromedio.Name = "txtPromedio";
+            this.txtPromedio.Size = new System.Drawing.Size(263, 20);
+            this.txtPromedio.TabIndex = 12;
             // 
             // btnProcesar
             // 
@@ -182,6 +182,7 @@ namespace appPractica1
             this.btnProcesar.TabIndex = 14;
             this.btnProcesar.Text = "Procesar";
             this.btnProcesar.UseVisualStyleBackColor = true;
+            this.btnProcesar.Click += new System.EventHandler(this.btnProcesar_Click_1);
             // 
             // btnLimpiar
             // 
@@ -192,12 +193,13 @@ namespace appPractica1
             this.btnLimpiar.TabIndex = 15;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // gpbRpta
             // 
-            this.gpbRpta.Controls.Add(this.textVrPagar);
-            this.gpbRpta.Controls.Add(this.textDscto);
-            this.gpbRpta.Controls.Add(this.textVrCred);
+            this.gpbRpta.Controls.Add(this.txtVrPagar);
+            this.gpbRpta.Controls.Add(this.txtDscto);
+            this.gpbRpta.Controls.Add(this.txtVrCred);
             this.gpbRpta.Controls.Add(this.txtNroCred);
             this.gpbRpta.Controls.Add(this.labelNroCréditos);
             this.gpbRpta.Controls.Add(this.labelVrCrédito);
@@ -208,6 +210,31 @@ namespace appPractica1
             this.gpbRpta.Size = new System.Drawing.Size(397, 125);
             this.gpbRpta.TabIndex = 16;
             this.gpbRpta.TabStop = false;
+            this.gpbRpta.Visible = false;
+            // 
+            // txtVrPagar
+            // 
+            this.txtVrPagar.Location = new System.Drawing.Point(292, 94);
+            this.txtVrPagar.Name = "txtVrPagar";
+            this.txtVrPagar.ReadOnly = true;
+            this.txtVrPagar.Size = new System.Drawing.Size(71, 20);
+            this.txtVrPagar.TabIndex = 20;
+            // 
+            // txtDscto
+            // 
+            this.txtDscto.Location = new System.Drawing.Point(292, 56);
+            this.txtDscto.Name = "txtDscto";
+            this.txtDscto.ReadOnly = true;
+            this.txtDscto.Size = new System.Drawing.Size(71, 20);
+            this.txtDscto.TabIndex = 19;
+            // 
+            // txtVrCred
+            // 
+            this.txtVrCred.Location = new System.Drawing.Point(292, 19);
+            this.txtVrCred.Name = "txtVrCred";
+            this.txtVrCred.ReadOnly = true;
+            this.txtVrCred.Size = new System.Drawing.Size(71, 20);
+            this.txtVrCred.TabIndex = 18;
             // 
             // txtNroCred
             // 
@@ -217,40 +244,17 @@ namespace appPractica1
             this.txtNroCred.Size = new System.Drawing.Size(71, 20);
             this.txtNroCred.TabIndex = 17;
             // 
-            // textVrCred
+            // txtMsj
             // 
-            this.textVrCred.Location = new System.Drawing.Point(292, 19);
-            this.textVrCred.Name = "textVrCred";
-            this.textVrCred.ReadOnly = true;
-            this.textVrCred.Size = new System.Drawing.Size(71, 20);
-            this.textVrCred.TabIndex = 18;
-            // 
-            // textDscto
-            // 
-            this.textDscto.Location = new System.Drawing.Point(292, 56);
-            this.textDscto.Name = "textDscto";
-            this.textDscto.ReadOnly = true;
-            this.textDscto.Size = new System.Drawing.Size(71, 20);
-            this.textDscto.TabIndex = 19;
-            // 
-            // textVrPagar
-            // 
-            this.textVrPagar.Location = new System.Drawing.Point(292, 94);
-            this.textVrPagar.Name = "textVrPagar";
-            this.textVrPagar.ReadOnly = true;
-            this.textVrPagar.Size = new System.Drawing.Size(71, 20);
-            this.textVrPagar.TabIndex = 20;
-            // 
-            // textMsj
-            // 
-            this.textMsj.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textMsj.Location = new System.Drawing.Point(14, 464);
-            this.textMsj.Multiline = true;
-            this.textMsj.Name = "textMsj";
-            this.textMsj.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textMsj.Size = new System.Drawing.Size(263, 20);
-            this.textMsj.TabIndex = 17;
-            this.textMsj.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMsj.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMsj.Location = new System.Drawing.Point(14, 464);
+            this.txtMsj.Multiline = true;
+            this.txtMsj.Name = "txtMsj";
+            this.txtMsj.ReadOnly = true;
+            this.txtMsj.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtMsj.Size = new System.Drawing.Size(263, 43);
+            this.txtMsj.TabIndex = 17;
+            this.txtMsj.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnTerminar
             // 
@@ -261,20 +265,22 @@ namespace appPractica1
             this.btnTerminar.TabIndex = 18;
             this.btnTerminar.Text = "Terminar";
             this.btnTerminar.UseVisualStyleBackColor = true;
+            this.btnTerminar.Click += new System.EventHandler(this.btnTerminar_Click_1);
             // 
             // frmUniversidad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(439, 525);
+            this.ControlBox = false;
             this.Controls.Add(this.btnTerminar);
-            this.Controls.Add(this.textMsj);
+            this.Controls.Add(this.txtMsj);
             this.Controls.Add(this.gpbRpta);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnProcesar);
-            this.Controls.Add(this.textPromedio);
-            this.Controls.Add(this.textNombre);
-            this.Controls.Add(this.textCarne);
+            this.Controls.Add(this.txtPromedio);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.txtCarne);
             this.Controls.Add(this.cmbTipoEst);
             this.Controls.Add(this.labelPromedio);
             this.Controls.Add(this.labelNombre);
@@ -302,17 +308,17 @@ namespace appPractica1
         private System.Windows.Forms.Label labelVrCrédito;
         private System.Windows.Forms.Label labelNroCréditos;
         private System.Windows.Forms.ComboBox cmbTipoEst;
-        private System.Windows.Forms.TextBox textCarne;
-        private System.Windows.Forms.TextBox textNombre;
-        private System.Windows.Forms.TextBox textPromedio;
+        private System.Windows.Forms.TextBox txtCarne;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtPromedio;
         private System.Windows.Forms.Button btnProcesar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.GroupBox gpbRpta;
-        private System.Windows.Forms.TextBox textVrPagar;
-        private System.Windows.Forms.TextBox textDscto;
-        private System.Windows.Forms.TextBox textVrCred;
+        private System.Windows.Forms.TextBox txtVrPagar;
+        private System.Windows.Forms.TextBox txtDscto;
+        private System.Windows.Forms.TextBox txtVrCred;
         private System.Windows.Forms.TextBox txtNroCred;
-        private System.Windows.Forms.TextBox textMsj;
+        private System.Windows.Forms.TextBox txtMsj;
         private System.Windows.Forms.Button btnTerminar;
     }
 }

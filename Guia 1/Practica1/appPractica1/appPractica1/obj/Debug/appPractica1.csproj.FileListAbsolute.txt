@@ -1,10 +1,46 @@
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe.config
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.pdb
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.AssemblyReference.cache
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.frmUniversidad.resources
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.Properties.Resources.resources
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.GenerateResource.cache
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CoreCompileInputs.cache
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.exe
-E:\Programación de software\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.pdb
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.AssemblyReference.cache
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\obj\Debug\appPractica1.frmUniversidad.resources
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\obj\Debug\appPractica1.Properties.Resources.resources
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.GenerateResource.cache
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CoreCompileInputs.cache
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\bin\Debug\appPractica1.exe.config
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\bin\Debug\appPractica1.exe
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\bin\Debug\appPractica1.pdb
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.dll
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\bin\Debug\libRnUniversidad.dll
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.pdb
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.xml
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\bin\Debug\libRnUniversidad.pdb
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CopyComplete
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\obj\Debug\appPractica1.exe
+C:\Users\wolff\OneDrive\Escritorio\appPractica1\appPractica1\obj\Debug\appPractica1.pdb
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe.config
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.pdb
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libRnUniversidad.dll
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.pdb
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.xml
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libRnUniversidad.pdb
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.AssemblyReference.cache
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.frmUniversidad.resources
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.Properties.Resources.resources
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.GenerateResource.cache
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CoreCompileInputs.cache
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CopyComplete
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.exe
+D:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.pdb
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe.config
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.exe
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\appPractica1.pdb
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.dll
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libRnUniversidad.dll
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.pdb
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.xml
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\bin\Debug\libRnUniversidad.pdb
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.frmUniversidad.resources
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.Properties.Resources.resources
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.GenerateResource.cache
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CoreCompileInputs.cache
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CopyComplete
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.exe
+E:\ProgramacionDeSoftware\Guia 1\Practica1\appPractica1\appPractica1\obj\Debug\appPractica1.pdb

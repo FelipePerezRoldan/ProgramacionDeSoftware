@@ -65,7 +65,7 @@ namespace libRnUniversidad
         #region "Metodos privados"
         private bool Validar()
         {
-            if (intTipoEst < 1 || intTipoEst > 2)  //intTipioEst != 1 && intTipioEst != 2
+            if (intTipoEst != 1 && intTipoEst != 2)  
             {
                 strError = "Tipo de estudiante no válido";
                 return false;
@@ -73,6 +73,11 @@ namespace libRnUniversidad
             if (fltProm < 0 || fltProm > 5)
             {
                 strError = "Promedio de nota no válido";
+                return false;
+            }
+            if (fltProm < 2.5 && intTipoEst == 1)
+            {
+                strError = $"No puedes matricularte, promedio ({fltProm}) inferior a 2.5";
                 return false;
             }
             return true;
@@ -103,6 +108,7 @@ namespace libRnUniversidad
                         fltValCredito = Convert.ToSingle(vectorLinea[2]);  //Valor crédito
                         intCredit = Convert.ToInt16(vectorLinea[3]);  //Cantidad Créditos
                         fltDesc = Convert.ToSingle(vectorLinea[4]);  //Porcentaje Dscto
+                        break;
                     }
                 }
                 Archivo.Close();

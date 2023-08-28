@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using libRnUniversidad;
+﻿using libRnUniversidad;
+using System;
 namespace libOpeUniversidad
 {
     public class clsOpeUniversidad
@@ -45,23 +41,22 @@ namespace libOpeUniversidad
         }
         public float valorCred
         {
-            set { fltValorCred = value; }
+            get { return fltValorCred; }
         }
         public int numCreditos
         {
-            set { intCredit = value; }
+            get { return intCredit; }
         }
         public float Descuento
         {
-            set { fltValDescuento = value; }
+            get { return fltValDescuento; }
         }
         public float valorPago
         {
-            set { fltValorPago = value; }
+            get { return fltValorPago; }
         }
         public string Error
         {
-            set { strError = value; }
             get { return strError; }
         }
         #endregion
@@ -82,7 +77,8 @@ namespace libOpeUniversidad
                 //Invocar datos y tratamiento del error.
                 if (!oRn.hallarDatos())
                 {
-                    strError = oRn.error;//refactorizar 
+                    strError = oRn.Error;//refactorizar 
+                    return false;
                 }
                 //recuperar info
                 fltValorCred = oRn.ValorCredito;

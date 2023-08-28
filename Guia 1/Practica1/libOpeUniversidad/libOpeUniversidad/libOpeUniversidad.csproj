@@ -32,7 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="libRnUniversidad">
+    <Reference Include="libRnUniversidad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\libRnUniversidad\libRnUniversidad\bin\Debug\libRnUniversidad.dll</HintPath>
     </Reference>
     <Reference Include="System" />
